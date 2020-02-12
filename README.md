@@ -30,10 +30,9 @@ Clone and setup:
 
     git clone https://github.com/willcl-ark/lnproxy.git
     cd lnproxy
-    python3 -m venv .venv
-    source .venv/bin/activate
-    pip install --upgrade pip
-    pip install -r requirements.txt
+    # Note: Use a Virtual Env here to avoid polluting your system python install!
+    pip3 install --upgrade pip
+    pip3 install -r requirements.txt
     
 Next we add our goTenna SDK token and ONION_TOOL path to the config file:
 
